@@ -1,8 +1,8 @@
 class Mods < Formula
-  desc "AI for the command-line, built for pipelines"
+  desc "An AI agent for your terminal"
   homepage "https://github.com/panjie/mods"
-  url "https://github.com/panjie/mods/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "be3706a9bf8bf4bc571ee730201b2606456c0a8e5a79b0e492d11af988f73f4a"
+  url "https://github.com/panjie/mods/archive/refs/tags/v2.0.0.tar.gz"
+  sha256 "4791193123410aa90ce2b7323b4fc47d011fae3a764db8a9e0b44249f3e5d3a3"
   license "MIT"
   head "https://github.com/panjie/mods.git", branch: "main"
 
