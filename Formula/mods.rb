@@ -1,6 +1,7 @@
 class Mods < Formula
   desc "AI agent for your terminal"
   homepage "https://github.com/panjie/mods"
+  conflicts_with "mods", because: "homebrew/core ships the discontinued charmbracelet/mods"
   version "3.3.0"
   license "MIT"
   head "https://github.com/panjie/mods.git", branch: "main" do
