@@ -1,7 +1,7 @@
 class Mods < Formula
   desc "AI agent for your terminal"
   homepage "https://github.com/panjie/mods"
-  version "4.1.0"
+  version "4.5.0"
   license "MIT"
   head "https://github.com/panjie/mods.git", branch: "main" do
     depends_on "go" => :build
@@ -9,23 +9,23 @@ class Mods < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/panjie/mods/releases/download/v4.1.0/mods_4.1.0_Darwin_arm64.tar.gz"
-      sha256 "7679dc6bcb11eb8ade3d60e0ddb2d47b69d59dc1a55f6d5f67ae1d10b477ed2c"
+      url "https://github.com/panjie/mods/releases/download/v4.5.0/mods_4.5.0_Darwin_arm64.tar.gz"
+      sha256 "1b7a783dcfbe8fb4f1e61e0b3a434196f8342947773959e61c6e1b58f0885e7c"
     end
     on_intel do
-      url "https://github.com/panjie/mods/releases/download/v4.1.0/mods_4.1.0_Darwin_x86_64.tar.gz"
-      sha256 "70a519736ca0ab8fda1287df04459d87ba580247d27c47d3ad6947464ecc3037"
+      url "https://github.com/panjie/mods/releases/download/v4.5.0/mods_4.5.0_Darwin_x86_64.tar.gz"
+      sha256 "662fb5f38fc055a46b543a2d4014ee587da54f630772e28cfd0d27d4b79ca95a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/panjie/mods/releases/download/v4.1.0/mods_4.1.0_Linux_arm64.tar.gz"
-      sha256 "740c35b6e20039624deedb92623f377b2afb591b4ea5520fb37702568fd2261b"
+      url "https://github.com/panjie/mods/releases/download/v4.5.0/mods_4.5.0_Linux_arm64.tar.gz"
+      sha256 "11911922aec3f0514cc4fe3b1ee2267220a93554f481ac281bfd52f0464c4234"
     end
     on_intel do
-      url "https://github.com/panjie/mods/releases/download/v4.1.0/mods_4.1.0_Linux_x86_64.tar.gz"
-      sha256 "85d0aca15dfca1304110b0aee0d531f19aee259fadb821b47f20f49dd1ef61c6"
+      url "https://github.com/panjie/mods/releases/download/v4.5.0/mods_4.5.0_Linux_x86_64.tar.gz"
+      sha256 "17f995d6d3f4e3ca7f428945f74500c5281c182439615060e200e9dcc283c81a"
     end
   end
 
